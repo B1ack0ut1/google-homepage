@@ -1,0 +1,1 @@
+The focus of this project is to attempt to build a similar-looking replicate (not including functionality) of the google homepage.
