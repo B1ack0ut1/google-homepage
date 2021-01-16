@@ -1,5 +1,5 @@
 
-ul {
+.top-nav {
     list-style-type: none;
     padding-inline-start: 0px;
     float: right;
@@ -8,39 +8,32 @@ ul {
     grid-template-columns: repeat(4,1fr);
     gap: 0px 10px;
 }
-ul:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.top-nav-text {
+.top-nav__text {
     margin: auto;
     font-family: arial, sans-serif;
     font-size: 13px;
 }
-.underline-on-hover:hover {
+.top-nav__text--underline-on-hover:hover {
     text-decoration: underline;
 }
-#li_3 {
+.top-nav__icon {
     margin: auto;
 }
-#google-apps-icon {
+.top-nav__google-apps-icon {
+    margin:auto;
     width: 100%;
     height: auto;
 }
-#li_4 {
-    margin: auto;
-}
-#sign-in-button {
+.top-nav__sign-in-button {
     color: white;
     background-color: #1a73e8;
     border-radius: 5px;
     border-color: transparent;
 }
-#sign-in-button:hover {
+.top-nav__sign-in-button--hover:hover {
     background-color: #2b7de9;
 }
-#google-logo {
+.google-logo {
     display: inline-block;
     position: absolute;
     left: 0;
@@ -48,7 +41,7 @@ ul:after{
     margin: auto;
     padding-top: 200px;
 }
-#text-field-visual {
+.search-bar {
     width: 586px;
     height: 46px;
     border: 1px solid lightgray;
@@ -59,10 +52,10 @@ ul:after{
     margin-top: 320px;
     border-radius: 25px;    
 }
-#text-field-visual:hover {
+.search-bar:hover {
     box-shadow: 0 0 5px 0 lightgray;
 }
-input {
+.search-bar__text-field {
     width: 480px;
     height: 34px;
     position: absolute;
@@ -75,17 +68,17 @@ input {
     font-size: 16px;
     border-color: transparent;
 }
-input:focus {
+.search-bar__text-field--focus:focus {
     outline: none;
 }
-#search-icon {
+.search-bar__search-icon {
     height: 25px;
     width: auto;
     position: relative;
     top: 8px;
     left: 8px;
 }
-#voice-search-icon{
+.search-bar__voice-search-icon{
     height: 25px;
     width: auto;
     position: relative;

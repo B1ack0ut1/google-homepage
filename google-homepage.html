@@ -7,27 +7,22 @@
     </head>
     <body>
         <nav>
-            <!-- <div id="list-container">            
-                <div>Gmail</div>
-                <div>Images</div>
-                <div>(Google Apps Image)</div>
-                <div>(Google account image)</div>
-            </div> -->
-            <ul>
-                <li class="top-nav-text underline-on-hover">Gmail</li>
-                <li class="top-nav-text underline-on-hover">Images</li>
-                <li id="li_3" ><img id="google-apps-icon" src="https://cdn.gtricks.com/2016/01/Chrome-App-Launcher-icon-720x340.png" alt="Google apps icon"></li>
-                <li id="li_4" ><button id="sign-in-button">Sign In</button></li>
+            <ul class="top-nav">
+                <li class="top-nav__text top-nav__text--underline-on-hover">Gmail</li>
+                <li class="top-nav__text top-nav__text--underline-on-hover">Images</li>
+                <li class="top-nav__icon"><img class="top-nav__google-apps-icon"
+                    src="https://cdn.gtricks.com/2016/01/Chrome-App-Launcher-icon-720x340.png" alt="Google apps icon"></li>
+                <li class="top-nav__icon" ><button class="top-nav__sign-in-button top-nav__sign-in-button--hover">Sign In</button></li>
             </ul>
         </nav>    
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
             alt="Google logo" title="Google logo">
-        <div id="text-field-visual">
-            <input type="text">
-            <img id="search-icon" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png" 
-                alt="search icon"title="search icon">
-            <img id="voice-search-icon" src="https://cdn3.iconfinder.com/data/icons/sound-and-music-minimalist-icon-set/256/microphone-512.png"
-                alt="voice-search-icon" title="voice-search-icon">
+        <div class="search-bar">
+            <input class="search-bar__text-field search-bar__text-field--focus" type="text">
+            <img class="search-bar__search-icon" 
+                src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png" alt="search icon"title="search icon">
+            <img class="search-bar__voice-search-icon" 
+                src="https://cdn3.iconfinder.com/data/icons/sound-and-music-minimalist-icon-set/256/microphone-512.png" alt="voice-search-icon" title="voice-search-icon">
         </div>
         <footer>
             <nav id="first-bottom-row">
