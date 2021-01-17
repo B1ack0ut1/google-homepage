@@ -120,7 +120,6 @@
 .bottom-nav__bar {
     width: 100%;
     list-style-type: none;
-    flex-direction: row;
     border: none;
 }
 .bottom-nav__bar-1 {
@@ -129,7 +128,6 @@
 }
 .bottom-nav__bar-1-list {
     list-style-type: none;
-    justify-self: left;
 }
 .bottom-nav__bar-2-list-left {
     list-style-type: none;
